@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all h1
+{
+    text-align: center;
+
+}
+.form-container
+{
+    border: 1px solid black;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 10px;
+}
+.form-container h2
+{
+    text-align: center;
+}
+ button
+ {
+    margin-top: 10px;
+    padding: 0 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    background-color: rgb(204, 198, 166);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: yellowgreen;
+}
+.banner
+{
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    background-color:#EED2EE
+}
+.banner ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 12PX;
+}
+.banner ul li:nth-child(2) button
+{
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    background-color: #D8BFD8;
+}
+.banner ul li:nth-child(2) button:hover
+{
+    background-color: transparent;
+}
+.banner ul li:nth-child(3) button
+{
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    background-color: #D8BFD8;
+}
+.banner ul li:nth-child(3) button:hover
+{
+    background-color: transparent;
+}
+.banner ul li:nth-child(4) button
+{
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    background-color: #D8BFD8;
+}
+.banner ul li:nth-child(4) button:hover
+{
+    background-color: transparent;
+
+}
+.banner ul li:nth-child(5) input
+{
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+}
+.banner ul li:nth-child(5)
+{
+    position: relative;
+}
+.banner ul li:nth-child(5) i
+{
+    position: absolute;
+    margin-top: 10px;
+    right: 10px;
+}
+.banner ul li:nth-child(6) input
+{
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+}
+.banner ul li:nth-child(6)
+{
+    position: relative;   
+}
+.banner ul li:nth-child(6) i
+{
+    position: absolute;
+    margin-top: 10px;
+    right: 10px;
+
+}
+/* CSS cho modal */
+.modal {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    display: none; 
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding-top: 60px; 
+    top: 0; 
+    left: 0; 
+}
+.modal-content 
+{
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: auto; /* Tự động căn giữa */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Chiều rộng của modal */
+    max-width: 500px; /* Chiều rộng tối đa của modal */
+    border-radius: 10px; /* Thêm bo tròn cho modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Thêm bóng cho modal */
+    position: relative; /* Để có thể sử dụng vị trí tuyệt đối cho nút đóng */
+    top: 35%; /* Đưa modal xuống giữa trang */
+    transform: translateY(-50%); /* Dịch chuyển modal lên một nửa chiều cao của nó */
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus 
+{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.input-box 
+{
+    position: relative;
+    margin: 20px 0;
+}
+.input-box input 
+{
+     width:  100%;
+     padding: 12px 15px;
+    background: none;
+    border: none;
+    outline: none;
+    color : #fff;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(255 , 255 , 255 , 0.5);
+    transition: 0.4s;
+ }
+.input-box input:focus 
+{
+    border-color :#00ffff;
+    box-shadow: 0 5px 15px rgba(255 , 255 , 255 , 0.3);
+}
+.input-box span
+{
+    position: absolute;
+    top : 50% ; 
+    left : 15px;
+    color: rgba(255 , 255 , 255 , 0.5);
+    font-size : 16px;
+    pointer-events: none;
+    transition: 0.4s;
+    transform: translateY(-50%);
+}
+.input-box input:focus + span ,
+.input-box input:not(:placeholder-shown) + span
+{
+    top : 5px; 
+    font-size: 12px;
+    color: #00ffff;
+}
+.submit-btn
+{
+    background: linear-gradient(90deg , #00ffff , #00ff80);
+    border: none;
+    padding: 6px 16px;
+    border-radius: 25px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 8px;
+    text-align: center;
+}
+.submit-btn:hover 
+{
+    background: linear-gradient(90deg , #00ff80 , #00ffff);
+    box-shadow: 0 10px 15px #00ff80;
+}
