@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenTaxi", "GreenTaxi\GreenTaxi.csproj", "{1F913848-4667-4A6D-BFE8-F3B072E2AF6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libs", "Libs\Libs.csproj", "{1356A863-143E-4B8C-A74E-D1E4EBCDA774}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F913848-4667-4A6D-BFE8-F3B072E2AF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F913848-4667-4A6D-BFE8-F3B072E2AF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F913848-4667-4A6D-BFE8-F3B072E2AF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F913848-4667-4A6D-BFE8-F3B072E2AF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1356A863-143E-4B8C-A74E-D1E4EBCDA774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1356A863-143E-4B8C-A74E-D1E4EBCDA774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1356A863-143E-4B8C-A74E-D1E4EBCDA774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1356A863-143E-4B8C-A74E-D1E4EBCDA774}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40C69935-16D9-4976-AA35-977F171100AE}
+	EndGlobalSection
+EndGlobal
