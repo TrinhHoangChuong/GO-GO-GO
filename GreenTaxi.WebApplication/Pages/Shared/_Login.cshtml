@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        @RenderBody()
+        <div class="login-body">
+            <!-- Form Login -->
+            <div class="login-form-container">
+                <div class="login-form-header">
+                    <h4>
+                        Login
+                    </h4>
+                </div>
+
+                <div class="login-form">
+                    <input type="text" class="login-form-input" placeholder="Email or phone number">
+                    <input type="password" class="login-form-input" placeholder="Password">
+                    <button class="login-form-button">Sign In</button>
+
+                    <div class="login-form-help">
+                        <div class="login-form-rememberMe">
+                            <input type="checkbox" class="remberMe-cbx" id="checkbox_id">
+                            <label class="remember-lbl" for="checkbox_id">Remember me</label>
+                        </div>
+                        <a class="help-link" href="/">Need help?</a>
+                    </div>
+                </div>
+
+                <div class="login-form-other">
+                    <a href="/" class="login-fb">
+                        <img class="login-fb-icon"
+                             src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png"
+                             alt="">
+                        <span class="login-fb-text">Login with Facebook</span>
+                    </a>
+
+                    <div class="login-form-signupnow">
+                        <a href="/" class="login-form-signupnow-link">Sign up now.</a>
+                    </div>
+
+                    <div class="login-term">
+                        <p></p>
+                        <a href="">Learn more.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="login-overlay">
+        </div>
+
+        <div class="login-footer">
+        </div>
+    </div>
+</body>
+</html>
